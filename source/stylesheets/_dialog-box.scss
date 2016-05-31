@@ -1,11 +1,9 @@
 .dialog-box {
+  @include position(absolute, 50% null null 50%);
   background-color: $white;
   border-radius: $base-border-radius;
   box-shadow: 0 2px 4px 0 rgba($black, 0.2);
-  left: 50%;
   padding: $large-spacing;
-  position: absolute;
-  top: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
 }

@@ -7,35 +7,20 @@ label {
   font-weight: 600;
 }
 
-[type="color"],
-[type="date"],
-[type="datetime"],
-[type="datetime-local"],
-[type="email"],
-[type="month"],
-[type="number"],
-[type="password"],
-[type="search"],
-[type="tel"],
-[type="text"],
-[type="time"],
-[type="url"],
-[type="week"],
-input:not([type]),
-textarea {
+#{$all-text-inputs} {
   background-color: $white;
   border: $base-border;
   border-radius: $base-border-radius;
   box-sizing: border-box;
   display: block;
-  font-family: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  font-family: $monospace;
   font-size: $base-font-size;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 2;
   width: 100%;
 
   &:hover {
-    border-color: #b1b1b1;
+    border-color: shade($base-border-color, 20%);
   }
 
   &:focus {
@@ -43,10 +28,7 @@ textarea {
   }
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+#{$all-buttons} {
   appearance: none;
   background-color: $action-color;
   border: 0;
@@ -66,7 +48,7 @@ button,
 
   &:hover,
   &:focus {
-    background-color: #11519a;
+    background-color: shade($action-color, 20%);
     color: $white;
   }
 }

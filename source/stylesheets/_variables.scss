@@ -18,4 +18,4 @@ $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 $base-background-color: #fff;
-$secondary-background-color: #f7f7f7;
+$secondary-background-color: shade($base-background-color, 5%);
