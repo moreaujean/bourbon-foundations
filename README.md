@@ -1,17 +1,70 @@
-# Bourbon Foundations Exercise
+# Bourbon Smash / Bourbon Foundations
 
-## Getting Started
+Hey there! We're [thoughtbot](https://thoughtbot.com), a design and
+development consultancy that brings your digital product ideas to life.
+We also love to share what we learn.
 
-To get started, just run the bin/setup command:
+This coding exercise comes from [Upcase](https://thoughtbot.com/upcase),
+the online learning platform we run. It's part of the
+[Bourbon Smash](https://thoughtbot.com/upcase/bourbon-smash) course and is just one small sample of all
+the great material available on Upcase, so be sure to visit and check out the rest.
 
-``` sh
-$ bin/setup
-```
+## Exercise Intro
 
-## Working on the Exercise
+Use Bourbon's mixins to style a login form.
 
-Using the knowledge you learned while watching the Sass video, refactor both the `layout.erb` and the `all.scss`. To take advantage of all that Sass magic.
+![bourbon-login](https://thoughtbot-images.s3.amazonaws.com/upcase/exercise-images/bourbon-smash/bourbon.png)
 
-Note the goal is not to alter the styling, but instead refactor the style code for readability and maintainability using Sass.
 
-To confirm that everything is working, be sure to run the middleman server (`middleman s`) to confirm that the styles have not changed from a user perspective.
+
+## Instructions
+
+To start, you'll want to clone and run the setup script for the repo
+
+    git clone git@github.com:thoughtbot-upcase-exercises/bourbon-foundations.git
+    cd bourbon-foundations
+    bin/setup
+
+You can then start the server to view the styles with:
+
+     bundle exec middleman server
+
+Your goal is to refactor the provided styles using Bourbon's mixins to simplify the style rules as you go.
+
+## Tips and Tricks
+
+Be sure to revisit the [Bourbon Introduction video](https://thoughtbot.com/upcase/videos/bourbon-introduction), as well as the [Bourbon documentation](http://bourbon.io/docs/) for reference.
+
+## Featured Solution
+
+Check out the [featured solution branch](https://github.com/thoughtbot-upcase-exercises/bourbon-foundations/compare/featured-solution#toc) to
+see the approach we recommend for this exercise.
+
+## Forum Discussion
+
+If you find yourself stuck, be sure to check out the associated
+[Upcase Forum discussion]()
+for this exercise to see what other folks have said.
+
+## Next Steps
+
+When you've finished the exercise, head on back to the
+[Bourbon Smash](https://thoughtbot.com/upcase/bourbon-smash) course to find the next exercise,
+or explore any of the other great content on
+[Upcase](https://thoughtbot.com/upcase).
+
+## License
+
+bourbon-foundations is Copyright © 2015-2018 thoughtbot, inc. It is free software,
+and may be redistributed under the terms specified in the
+[LICENSE](/LICENSE.md) file.
+
+## Credits
+
+![thoughtbot](https://presskit.thoughtbot.com/assets/images/logo.svg)
+
+This exercise is maintained and funded by
+[thoughtbot, inc](http://thoughtbot.com/community).
+
+The names and logos for Upcase and thoughtbot are registered trademarks of
+thoughtbot, inc.
